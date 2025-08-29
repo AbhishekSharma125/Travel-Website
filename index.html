@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar section -->
+        <div class="section-content">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="images/logo-removebg-preview.png" alt="t">
+                    <h2 class="logo-text">travora</h2>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hotel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item nav-icons-mobile">
+                        <select class="currency-selector">
+                          <option value="eur" selected>EUR (€)</option>
+                          <option value="inr">INR (₹)</option>
+                          <option value="usd">USD ($)</option>
+                          <option value="gbp">GBP (£)</option>
+                          <option value="jpy">JPY (¥)</option>
+                        </select>
+                        <i class="fa-solid fa-hotel"></i>
+                        <i class="fa-solid fa-user"></i>
+                      </li>
+                </ul>
+                <div class="icon-1">
+                    <select class="currency-selector">
+                        <option value="eur" selected>EUR (€)</option>
+                        <option value="inr">INR (₹)</option>
+                        <option value="usd">USD ($)</option>
+                        <option value="gbp">GBP (£)</option>
+                        <option value="jpy">JPY (¥)</option>
+                    </select>
+                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <i id="toggle-icon" class="fa-solid fa-bars"></i>
+                </button>                
+            </nav>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <img class="hero-image" src="images/pool.jpg" alt="pool">
+                    <div class="hero-text">
+                        <h1>Find your next stay</h1>
+                        <p>Get the best price on 2,000,000+ properties, worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <div class="icon-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <a href="#" class="search-bar-text">Location</a>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                <div class="icon-2">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div>
+                    <a href="#" class="search-bar-text">Check-In</a>
+                    <input type="date">
+                </div>
+                <div class="icon-2">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div>
+                    <a href="#" class="search-bar-text">Check-Out</a>
+                    <input type="date">
+                </div>
+                <div class="icon-2">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                    <a href="#" class="search-bar-text">Guests</a>
+                    <input type="text" placeholder="Add guests and rooms">
+                </div>
+
+                <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- -hero section end- -->
+
+    <!-- Offer section start -->
+    <div class="offers-container">
+        <div class="offer-card blue">
+            <div class="text">
+                <h2>Special Offer <span class="highlight">50%</span> OFF</h2>
+                <p>Select hotel deals</p>
+                <button type="button">Learn More</button>
+            </div>
+            <div class="image-1">
+                <img src="images/2006483.jpg" alt="Travel items">
+            </div>
+        </div>
+        <div class="offer-card yellow">
+            <div class="text">
+                <h2>Get <span class="highlight">20% OFF!</span></h2>
+                <p>Let's explore the world.</p>
+                <button class="dark">Book Now</button>
+            </div>
+            <div class="image-2">
+                <img src="images/4210218.jpg" alt="Travel world">
+            </div>
+        </div>
+    </div>
+    <!-- Offer section end -->
+
+    <!-- Top Destination section start -->
+
+    <section class="destinations">
+        <h2>Top destinations</h2>
+        <div class="destination-list">
+            <div class="destination-item">
+                <img src="images/newjersey.jpg" alt="New Jersey">
+                <p class="place">New Jersey</p>
+                <p class="hotels">7 Hotels</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/losangeles.jpg" alt="Los Angeles">
+                <p class="place">Los Angeles</p>
+                <p class="hotels">13 Hotels</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/sanfrancisco.jpg" alt="San Francisco">
+                <p class="place">San Francisco</p>
+                <p class="hotels">9 Hotels</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/virginia.jpg" alt="Virginia">
+                <p class="place">Virginia</p>
+                <p class="hotels">11 Hotels</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/neveda.jpg" alt="Nevada">
+                <p class="place">Nevada</p>
+                <p class="hotels">10 Hotels</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/california.jpg" alt="California">
+                <p class="place">California</p>
+                <p class="hotels">14 Hotels</p>
+            </div>
+        </div>
+    </section>
+    <!-- Top Destination section end -->
+
+    <!-- Staycation section start -->
+    <section class="staycation">
+        <div class="text-stay">
+            <h2>Plan your next staycation</h2>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/redecGateway.jpg" alt="Redac Gateway Hotel" />
+                <div class="card-body">
+                    <div class="icon-3"> <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card-title">Redac Gateway Hotel</div>
+                    <div class="card-location">Los Angeles</div>
+                    <hr>
+                    <div class="card-rating">5/5 • <strong>Excellent</strong> (5 Reviews)</div>
+                    <div class="card-price">From €136.00 / night</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/easternDiscovery.jpg" alt="Eastern Discovery" />
+                <div class="card-body">
+                    <div class="icon-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card-title">Eastern Discovery</div>
+                    <div class="card-location">New York City</div>
+                    <hr>
+                    <div class="card-rating">5/5 • <strong>Excellent</strong> (13 Reviews)</div>
+                    <div class="card-price">From €100.00 / night</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/southwestStates.jpg" alt="Southwest States" />
+                <div class="card-body">
+                    <div class="icon-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card-title">Southwest States</div>
+                    <div class="card-location">Los Angeles</div>
+                    <hr>
+                    <div class="card-rating">5/5 • <strong>Excellent</strong> (2 Reviews)</div>
+                    <div class="card-price">From €150.00 / night</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/treehouseVillas.jpg" alt="Treehouse Villas" />
+                <div class="card-body">
+                    <div class="icon-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card-title">Treehouse Villas</div>
+                    <div class="card-location">California City, LA, USA</div>
+                    <hr>
+                    <div class="card-rating">5/5 • <strong>Excellent</strong> (3 Reviews)</div>
+                    <div class="card-price">From €180.00 / night</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Staycation section end -->
+
+    <!-- Recommended section start -->
+    <section class="container">
+        <h2 class="section-title">Recommended for you</h2>
+
+        <div class="card-slider">
+            <!-- Card 1 -->
+            <div class="hotel-card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/treehouse v.jpg" alt="Treehouse Villas" />
+                <div class="card-content">
+                    <div class="icon-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Treehouse Villas</h3>
+                    <p class="location">California City, USA</p>
+                    <hr>
+                    <div class="rating">
+                        <span class="score">5/5</span>
+                        <span>Excellent</span>
+                        <span class="reviews">(89 reviews)</span>
+                    </div>
+                    <p class="price">From: <strong>€180.00</strong> / night</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="hotel-card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/vinahomes.jpg" alt="Vinhomes Aparthotel" />
+                <div class="card-content">
+                    <div class="icon-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Vinhomes Aparthotel</h3>
+                    <p class="location">San Francisco</p>
+                    <hr>
+                    <div class="rating">
+                        <span class="score">5/5</span>
+                        <span>Excellent</span>
+                        <span class="reviews">(96 reviews)</span>
+                    </div>
+                    <p class="price">From: <strong>€150.00</strong> / night</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="hotel-card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/faruma chiang mai.jpg" alt="Furama Chiang Mai" />
+                <div class="card-content">
+                    <div class="icon-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Furama Chiang Mai</h3>
+                    <p class="location">Nevada</p>
+                    <hr>
+                    <div class="rating">
+                        <span class="score">5/5</span>
+                        <span>Excellent</span>
+                        <span class="reviews">(73 reviews)</span>
+                    </div>
+                    <p class="price">From: <strong>€160.00</strong> / night</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="hotel-card">
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="images/redec gateway.jpg" alt="Redac Gateway Hotel" />
+                <div class="card-content">
+                    <div class="icon-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Redac Gateway Hotel</h3>
+                    <p class="location">Los Angeles</p>
+                    <hr>
+                    <div class="rating">
+                        <span class="score">5/5</span>
+                        <span>Excellent</span>
+                        <span class="reviews">(89 reviews)</span>
+                    </div>
+                    <p class="price">From: <strong>€134.00</strong> / night</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recommended section end -->
+
+    <!-- Newsletter section start -->
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-image">
+                <img src="images/beach plane.jpg" alt="Tropical beach with a seaplane" />
+            </div>
+            <div class="newsletter-content">
+                <h2>Get special offers, and <br> more from Traveler</h2>
+                <p>Subscribe to see secret deals, prices drop <br> the moment you sign up!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter section end -->
+
+    <!-- Footer section start -->
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Our COVID-19 Response</a></li>
+              <li><a href="#">Cancellation options</a></li>
+              <li><a href="#">Safety Information</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Community Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">Partnerships</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Get in touch</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Social</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>                
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <p>© Copyright Traveler 2025</p>
+          <div class="payment-icons">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-regular fa-credit-card"></i>
+          </div>
+        </div>
+      </footer>
+
+       <!-- Footer section end -->
+
+       
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
